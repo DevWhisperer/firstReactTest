@@ -20,7 +20,7 @@ function App() {
       <div id="header">
         <form onSubmit={onSubmitHandler}>
           <input type="text" name="contents" />
-          <input type="submit" />
+          <input type="submit" value="추가하기" />
         </form>
         <h1>Todo List</h1>
       </div>
